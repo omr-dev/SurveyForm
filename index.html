@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Lorem ipsum dolor sit amet.</p>
+    <form action="" id="survey-form">
+        <label id="name-label">Name : </label><input type="text" id="name" placeholder="Your name" required><br><br>
+        <label id="email-label">Email : </label><input type="email" id="email" placeholder="Your e-mail" required><br><br>
+        <label id="number-label">Number :(10-100) </label><input type="number" id="number" min="10" max="100"
+            placeholder="Your number"><br><br>
+        <select name="dropdown" id="dropdown">
+            <option value="android">Android</option>
+            <option value="ios">iOS</option>
+        </select><br><br>
+        <label for="Premium">Premium</label>
+        <input type="radio" name="Premium" value="yes" >yes
+        <input type="radio" name="Premium" value="no">no <br><br>
+        <input type="checkbox" name="device" value="Tablet">Tablet
+        <input type="checkbox" name="device" value="Smartphone">Smartphone
+        <input type="checkbox" name="device" value="PC">PC <br><br>
+        <textarea name="message" cols="30" rows="10"></textarea><br><br>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
